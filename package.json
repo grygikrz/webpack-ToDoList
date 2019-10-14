@@ -22,7 +22,8 @@
     "style-loader": "^1.0.0"
   },
   "scripts": {
-    "start": "webpack"
+    "start": "webpack --env development",
+    "build": "webpack --env production"
   },
   "author": "",
   "license": "ISC"
